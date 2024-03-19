@@ -14,10 +14,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import argparse
+
 import os
 import sys
 
-from solution.consumer_sol import mqConsumer  # pylint: disable=import-error
+
+from consumer_sol import mqConsumer  # pylint: disable=import-error
 
 
 def main() -> None:
